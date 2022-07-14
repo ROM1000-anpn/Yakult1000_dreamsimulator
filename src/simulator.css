@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'koin';
+  src: url(./font/g_comickoin_freeB.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'onryo';
+  src: url(./font/onryou.TTF) format('truetype');
+}
+#simulator {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 60%;
+  background-color: #e4d1bb;
+  position: relative;
+  padding-top: 10%;
+}
+.result {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 50px;
+  height: 40%;
+  position: relative;
+  padding: 60px 15px 0;
+}
+.result::after {
+  content: '';
+  background-image: url(./img/e0798_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: -25px;
+  left: 13%;
+}
+.result p {
+  margin: unset;
+  font-family: 'onryo', serif;
+  font-size: 25px;
+  line-height: 1.3;
+}
+#button {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#main_image {
+  width: 50%;
+  margin-top: 30px;
+}
