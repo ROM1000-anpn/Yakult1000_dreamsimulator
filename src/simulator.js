@@ -22,7 +22,7 @@ function Simulator() {
         <p id="predicate">{startText ? '　' : predicate[random_predicate]}</p>
       </div>
       <button id="button" data-state="start" onClick={btnClick}>{startText ? "悪夢を予想する" : "やりなおし"}</button>
-      <img src={startText ? futon_image : sad_image} id="main_image" />
+      <img src={startText ? futon_image : sad_image} id="main_image" alt='' />
     </div>
   )
 };
